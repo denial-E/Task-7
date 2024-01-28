@@ -1,5 +1,5 @@
 
-var xhr = new XMLHttpRequest();
+var xhr = new XMLHttpRequest()
 var url = "https://restcountries.com/v3.1/all";
 xhr.open("GET", url, true);
 xhr.onreadystatechange = function () {
